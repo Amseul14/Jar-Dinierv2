@@ -1,0 +1,38 @@
+nav {
+    border-bottom: 4px solid rgb(0, 151, 8);
+    float: left; 
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1030;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;    
+    font-size: larger;
+    list-style: none;
+    height: 15px;
+    padding-top: 20px;
+}
+
+nav li :hover{
+    color: green;
+    border: 2px solid green ;
+    border-radius: 5%;
+}
+
+nav img {
+    display: flex;
+    float:left;
+    height: 100px;
+    border-radius: 10%;
+    padding-bottom: 5px;
+}
+
+nav button {
+    border: none;
+    background: none;
+    font-size: large;
+}

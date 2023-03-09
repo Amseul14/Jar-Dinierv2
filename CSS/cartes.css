@@ -1,0 +1,25 @@
+.cartes {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+}
+.cartes div{
+    display: flex;
+    gap: 20px;
+}
+
+.cartes p {
+    width: 150px;
+}
+
+.carte img {
+    width: 150px;
+    height: 150px;
+}
+
+.cartes h2 {
+    margin-top: 0;
+}

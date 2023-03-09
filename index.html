@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JAR-DINier</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!------En-tete------->
+        <nav>
+            <a><img src="sources/logo.png" alt=""/></a>
+            <ul>
+                <li><a>Règles du Jeu</a></li>
+                <li><a>Histoire</a></li>
+                <li><button class="openbtn" onclick="openNav()">Contributions</button></li>
+            </ul>
+        </nav>
+        
+        <!--------JEU Resume------->
+        <div class="resume">
+            <h1>JAR-DINiER : L'ultime jeu de jardinage !</h1>
+            <p>Un vieille homme milliardaire a besoin d’arroser le jardin de son manoir mais plusieurs jardiniers de talents lui ont été recommandés, il décide donc de les départagés avec une mission : arrosée les plantes dans son jardin laisser à l’abandon.</p>
+            <p>Les joueurs incarnent des jardiniers dont le but est d'arroser un maximum de plantes pour gagner la partie, le jeu peut se jouer à 2 jusqu'a 4 personnes !</p>
+        <!---------JEU Regle------>
+            <h2>Les règles</h2>
+            <p>Chaque joueurs commencent à un emplacement différents sur le plateau.</p>
+            <p>Les joueurs débutent avec un buisson et piochent 2
+                cartes, il est possible d’utiliser qu’une seule carte par
+                tour. Une fois la carte utilisée, elle doit être remise
+                dans la pioche.
+                Par la suite les joueurs ne pourront piocher qu’une
+                carte par tour.</p>
+            <p>Buisson : permet de bloquer une case sur le
+                plateau, seul la carte « Cisaille » permet
+                de contrer cette carte
+                </p>
+            <p>Il y a 5 plantes de différentes couleurs à arroser, elles sont disposer au 4 extrémité</p>
+        </div>
+        <section class="cartes">
+            <h2>Listes des cartes</h2>
+            
+            <div class="reuse">
+                <img src="sources/arrosoir-carte.PNG" alt="">
+                <p>Arrosoir :  permet d’arroser les plantes de couleurs sur le
+                    plateau, la carte s’utilise seulement quand la distance
+                    entre le joueur et la plante est de une case</p>
+            
+                <img src="sources/Cisaille-carte.PNG" alt="">
+                <p>Cisaille : permet de couper les buissons, la carte s’utilise
+                    seulement quand la distance entre le joueur et le buisson
+                    est de une case</p>
+                
+                <img src="sources/planteCarnivore-carte.PNG" alt="">
+                <p>Plantes carnivore : permet de bloquer une
+                    case sur le plateau, seul la carte « Saut » permet
+                    de contrer cette carte</p>
+                
+                <img src="sources/saut-carte.PNG" alt="">
+                <p>Saut : permet de contrer la carte « Plantes Carnivores » ou
+                    l’obstacle « Rocher » en passant au dessus de la case
+                    bloqué</p>
+                
+            </div>
+        </section>
+
+        <!-----------Contribution------->
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h2>Donations</h2>
+            <input type="radio" name="" id="">5€<br>
+            <input type="radio" name="" id="">10€<br>
+            <input type="radio" name="" id="">20€<br>
+            <input type="radio" name="" id="">50€<br>
+            <input type="radio" name="" id="">80€<br>
+            <p>Vous souhaitez donner plus ? Mettez le montant de votre ici !</p>
+            <input type="text" name="" id=""> €
+
+            <br><input type="submit" id="submit" value="Contribuer">
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

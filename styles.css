@@ -1,0 +1,25 @@
+@import url(CSS/navbar.css);
+@import url(CSS/cartes.css);
+@import url(CSS/sidepanel.css);
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+*a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(sources/Background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.resume{
+    background-color: white;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.resume p {
+    font-size: larger;
+}
